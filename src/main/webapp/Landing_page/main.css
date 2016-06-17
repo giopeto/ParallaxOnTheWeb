@@ -1,0 +1,97 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	color: #d7ceb2;
+	text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72;
+	font: 100px 'BazarMedium';
+	letter-spacing: 10px;
+}
+
+h2 {
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #9c8468;
+	opacity: 0.3;
+	font: 60px 'Museo700';
+}
+
+h3 {
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	letter-spacing: 5px;
+	font: 40px 'MisoRegular';
+}
+
+video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+
+
+
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+.video-header {
+	z-index:2;
+	position: absolute;
+	margin: 0 auto;
+	background: rgba(200, 0, 0, 0.4);
+	
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.header {
+	//border: 5px dashed green;
+	background-image: url("72138fb4-f5b3-43e0-a986-097b4602d69d.gif");
+	background-color: black;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+}
+
+.content {
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.img-div {
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 35vh;
+}
+
+.img-div2 {
+	background-image: url("3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 45vh;
+}
